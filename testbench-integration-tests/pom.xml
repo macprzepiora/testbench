@@ -148,13 +148,14 @@
         </dependency>
         <dependency>
             <groupId>com.vaadin</groupId>
-            <artifactId>vaadin-testbench-api</artifactId>
-            <version>${vaadin.testbench.api.version}</version>
+            <artifactId>vaadin-testbench-core</artifactId>
+            <version>${project.version}</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>com.vaadin</groupId>
-            <artifactId>vaadin-testbench-core</artifactId>
-            <version>${project.version}</version>
+            <artifactId>vaadin-testbench-api</artifactId>
+            <version>${vaadin.testbench.api.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
